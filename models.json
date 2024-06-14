@@ -233,5 +233,16 @@
       "https://huggingface.co/bartowski/Codestral-22B-v0.1-GGUF/resolve/main/Codestral-22B-v0.1-Q4_K_M.gguf"
     ],
     "sha256": "003e48ed892850b80994fcddca2bd6b833b092a4ef2db2853c33a3144245e06c"
-  }
+  },
+  {
+    "name": "Deepseek-V2-Lite-Q4_M",
+    "provider_url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "urls": [
+      "https://huggingface.co/mradermacher/DeepSeek-V2-Lite-GGUF/resolve/main/DeepSeek-V2-Lite.Q4_K_M.gguf"
+    ],
+    "sha256": "70985c39ba3e51a53e6ad6ae25ce29a3efc92b4802f61645760e1bc1eb89ad1a"
+  },
 ]
